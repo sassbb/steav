@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(images/stage.png);
+    background-size: cover;
+
+    overflow-x: hidden;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* 全般的な指定 */
+  }
+canvas {
+    
+    display: block;
+    margin: 0 auto;
+
+}
+
+.resizeimage img { width: 100%; }
+
+#score{
+    font-size:40px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    top: 70px;
+    left: -5000px;
+}
